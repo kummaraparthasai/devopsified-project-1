@@ -1,3 +1,37 @@
+# 🧪 Step 1: Local Application Testing
+
+As a DevOps Engineer, the first step is to verify that the application works correctly in the local environment before containerizing it.
+
+![Website](static/images/golang-website.png)
+
+# 🐳 Step 2: Dockerizing the Application
+
+After confirming the app works locally, the application is containerized using Docker.
+
+## 🔨 Build Docker Image
+
+```bash
+docker build -t go-web-app .
+```
+
+---
+
+## 🏷️  Tag Docker Image
+
+```bash
+docker tag go-web-app partha491612/go-web-app:22020854951
+```
+
+---
+
+## 📤 Push to Docker Hub
+
+```bash
+docker push partha491612/go-web-app:22020854951
+```
+
+---
+
 docker push partha491612/go-web-app:22020854951
 ```
 

@@ -10,32 +10,17 @@ After confirming the app works locally, the application is containerized using D
 
 ## 🔨 Build Docker Image
 
-```bash
 docker build -t go-web-app .
-```
 
 ---
 
 ## 🏷️  Tag Docker Image
 
-```bash
 docker tag go-web-app partha491612/go-web-app:22020854951
-```
-
----
 
 ## 📤 Push to Docker Hub
 
-```bash
 docker push partha491612/go-web-app:22020854951
-```
-
----
-
-docker push partha491612/go-web-app:22020854951
-```
-
----
 
 ## 📸 Docker Hub Repository
 
@@ -50,12 +35,7 @@ docker push partha491612/go-web-app:22020854951
 
 The Kubernetes cluster was created using:
 
-
-```bash
 eksctl create cluster --name demo-cluster --region us-east-1
-```
-
----
 
 ## 📦 Running Pods
 
